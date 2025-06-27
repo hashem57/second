@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f8ff;
+
+}
+
+/* start header section  */
+header h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+header img {
+    width: 75%;
+    margin-top: 49px;
+    margin-right: 282px;
+}
+/* start media query for header section  */
+@media only screen and (max-width:768px) {
+    header img {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+/* end media query for header section  */
+
+/* end header section  */
+
+/* end index page  */
+
+/* start media query for success home section  */
+@media only screen and (max-width:768px) {
+    .success-home img {
+        margin-bottom: 30px;
+    }
+    .success-home p {
+        font-size: 22px;
+    }
+    .success-content {
+        font-size: 15px !important;
+    }
+}
+
+/* end media query for success home section  */
+
